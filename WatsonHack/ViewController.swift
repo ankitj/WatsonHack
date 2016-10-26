@@ -10,9 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let watsonClient : WatsonClient = WatsonClient()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        print("inside view controller ... ")
+        watsonClient.getSentiments("", targets: "") { (emotions : String?, error : NSError?) in
+            print(emotions)
+        }
     }
 
     override func didReceiveMemoryWarning() {

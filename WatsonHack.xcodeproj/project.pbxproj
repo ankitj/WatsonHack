@@ -14,6 +14,20 @@
 		7B3B84301DC03F8F00712777 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B3B842E1DC03F8F00712777 /* LaunchScreen.storyboard */; };
 		7B3B843B1DC03F8F00712777 /* WatsonHackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3B843A1DC03F8F00712777 /* WatsonHackTests.swift */; };
 		7B3B84461DC03F8F00712777 /* WatsonHackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3B84451DC03F8F00712777 /* WatsonHackUITests.swift */; };
+		7B3B84551DC0435600712777 /* RestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3B84541DC0435600712777 /* RestKit.framework */; };
+		7B3B84571DC0493F00712777 /* AlchemyLanguageV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3B84561DC0493F00712777 /* AlchemyLanguageV1.framework */; };
+		7B3B84591DC0496000712777 /* Freddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3B84581DC0496000712777 /* Freddy.framework */; };
+		7B3B845B1DC0497000712777 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3B845A1DC0497000712777 /* Alamofire.framework */; };
+		7B3B845C1DC049F300712777 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3B845A1DC0497000712777 /* Alamofire.framework */; };
+		7B3B845D1DC049F300712777 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3B845A1DC0497000712777 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7B3B845E1DC049F300712777 /* Freddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3B84581DC0496000712777 /* Freddy.framework */; };
+		7B3B845F1DC049F300712777 /* Freddy.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3B84581DC0496000712777 /* Freddy.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7B3B84601DC049F300712777 /* AlchemyLanguageV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3B84561DC0493F00712777 /* AlchemyLanguageV1.framework */; };
+		7B3B84611DC049F300712777 /* AlchemyLanguageV1.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3B84561DC0493F00712777 /* AlchemyLanguageV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7B3B84621DC049F300712777 /* RestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3B84541DC0435600712777 /* RestKit.framework */; };
+		7B3B84631DC049F300712777 /* RestKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3B84541DC0435600712777 /* RestKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7B3B84661DC0518C00712777 /* WatsonClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3B84651DC0518C00712777 /* WatsonClient.swift */; };
+		7B3B84681DC0520C00712777 /* Emotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3B84671DC0520C00712777 /* Emotion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +47,23 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		7B3B84641DC049F300712777 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7B3B845F1DC049F300712777 /* Freddy.framework in Embed Frameworks */,
+				7B3B845D1DC049F300712777 /* Alamofire.framework in Embed Frameworks */,
+				7B3B84611DC049F300712777 /* AlchemyLanguageV1.framework in Embed Frameworks */,
+				7B3B84631DC049F300712777 /* RestKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		7B3B84221DC03F8F00712777 /* WatsonHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatsonHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B3B84251DC03F8F00712777 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +78,12 @@
 		7B3B84411DC03F8F00712777 /* WatsonHackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatsonHackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B3B84451DC03F8F00712777 /* WatsonHackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatsonHackUITests.swift; sourceTree = "<group>"; };
 		7B3B84471DC03F8F00712777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B3B84541DC0435600712777 /* RestKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RestKit.framework; path = Carthage/Build/iOS/RestKit.framework; sourceTree = SOURCE_ROOT; };
+		7B3B84561DC0493F00712777 /* AlchemyLanguageV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlchemyLanguageV1.framework; path = Carthage/Build/iOS/AlchemyLanguageV1.framework; sourceTree = SOURCE_ROOT; };
+		7B3B84581DC0496000712777 /* Freddy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Freddy.framework; path = Carthage/Build/iOS/Freddy.framework; sourceTree = SOURCE_ROOT; };
+		7B3B845A1DC0497000712777 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = SOURCE_ROOT; };
+		7B3B84651DC0518C00712777 /* WatsonClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatsonClient.swift; sourceTree = "<group>"; };
+		7B3B84671DC0520C00712777 /* Emotion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emotion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +91,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B3B84551DC0435600712777 /* RestKit.framework in Frameworks */,
+				7B3B84591DC0496000712777 /* Freddy.framework in Frameworks */,
+				7B3B84571DC0493F00712777 /* AlchemyLanguageV1.framework in Frameworks */,
+				7B3B84621DC049F300712777 /* RestKit.framework in Frameworks */,
+				7B3B84601DC049F300712777 /* AlchemyLanguageV1.framework in Frameworks */,
+				7B3B845C1DC049F300712777 /* Alamofire.framework in Frameworks */,
+				7B3B845E1DC049F300712777 /* Freddy.framework in Frameworks */,
+				7B3B845B1DC0497000712777 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,12 +142,15 @@
 		7B3B84241DC03F8F00712777 /* WatsonHack */ = {
 			isa = PBXGroup;
 			children = (
+				7B3B84531DC042FF00712777 /* Framework */,
 				7B3B84251DC03F8F00712777 /* AppDelegate.swift */,
 				7B3B84271DC03F8F00712777 /* ViewController.swift */,
 				7B3B84291DC03F8F00712777 /* Main.storyboard */,
 				7B3B842C1DC03F8F00712777 /* Assets.xcassets */,
 				7B3B842E1DC03F8F00712777 /* LaunchScreen.storyboard */,
 				7B3B84311DC03F8F00712777 /* Info.plist */,
+				7B3B84651DC0518C00712777 /* WatsonClient.swift */,
+				7B3B84671DC0520C00712777 /* Emotion.swift */,
 			);
 			path = WatsonHack;
 			sourceTree = "<group>";
@@ -125,6 +173,17 @@
 			path = WatsonHackUITests;
 			sourceTree = "<group>";
 		};
+		7B3B84531DC042FF00712777 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				7B3B845A1DC0497000712777 /* Alamofire.framework */,
+				7B3B84581DC0496000712777 /* Freddy.framework */,
+				7B3B84561DC0493F00712777 /* AlchemyLanguageV1.framework */,
+				7B3B84541DC0435600712777 /* RestKit.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +194,7 @@
 				7B3B841E1DC03F8F00712777 /* Sources */,
 				7B3B841F1DC03F8F00712777 /* Frameworks */,
 				7B3B84201DC03F8F00712777 /* Resources */,
+				7B3B84641DC049F300712777 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,7 +317,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B3B84281DC03F8F00712777 /* ViewController.swift in Sources */,
+				7B3B84661DC0518C00712777 /* WatsonClient.swift in Sources */,
 				7B3B84261DC03F8F00712777 /* AppDelegate.swift in Sources */,
+				7B3B84681DC0520C00712777 /* Emotion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,10 +461,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = WatsonHack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ajasuja.ios.WatsonHack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -410,10 +477,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = WatsonHack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ajasuja.ios.WatsonHack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
